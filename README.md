@@ -1,10 +1,17 @@
 botdetector
 ===========
 
-Small script to reliably detect web spiders. Currently supports
+Small python2 module to reliably detect web spiders using reverse DNS lookups
+for data harvesting protection.
 
-  * Googlebot
-  * bingbot
+
+Spiders supported:
+
+  * Googlebot (googlebot.com)
+  * bingbot (search.msn.com)
+
+
+Adding a new bot is very easy, just append the domain to the BOTS list.
 
 
 Install
