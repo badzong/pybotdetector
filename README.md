@@ -11,7 +11,8 @@ Spiders supported:
   * bingbot (search.msn.com)
 
 
-Adding a new bot is very easy, just append the domain to the BOTS list.
+Adding a new bot is very easy, just append the domain to the bots list of the
+BotDetector instance.
 
 
 Install
