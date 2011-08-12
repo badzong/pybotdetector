@@ -1,13 +1,13 @@
 import socket
 
 
-BOTS = [
-    'googlebot.com',
-    'search.msn.com'
-]
-    
-
 class BotDetector:
+
+    bots = [
+        'googlebot.com',
+        'search.msn.com'
+    ]
+    
 
     def __init__(self, port=80, timeout=1):
 
@@ -52,7 +52,7 @@ class BotDetector:
 
         reverse = reverse.rstrip('.')
 
-        for bot in BOTS:
+        for bot in self.bots:
             part = reverse[-len(bot):]
             if part == bot:
                 return bot
