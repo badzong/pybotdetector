@@ -53,8 +53,7 @@ class BotDetector:
         reverse = reverse.rstrip('.')
 
         for bot in self.bots:
-            part = reverse[-len(bot):]
-            if part == bot:
+            if reverse.endswith(bot):
                 return bot
 
         return None
