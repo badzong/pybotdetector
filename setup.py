@@ -8,7 +8,7 @@ setup(name='botdetector',
       author='Factor AG',
       author_email='manuel@factor.ch',
       url='https://github.com/FactorAG/pybotdetector',
-      packages=['botdetector',],
+      py_modules=['botdetector',],
       platforms=['any'],
       classifiers=[
           'Development Status :: 4 - Beta',
