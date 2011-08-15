@@ -9,7 +9,7 @@ class BotDetector:
     ]
     
 
-    def __init__(self, port=80, timeout=1):
+    def __init__(self, port=80, timeout=0.1):
 
         self.port = port
 
@@ -38,9 +38,6 @@ class BotDetector:
 
             if ip == forward:
                 return reverse
-
-            print forward
-                
 
         return None
 
