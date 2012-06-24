@@ -5,7 +5,8 @@ class BotDetector:
 
     bots = [
         'googlebot.com',
-        'search.msn.com'
+        'search.msn.com',
+        'yandex.com',
     ]
     
 
