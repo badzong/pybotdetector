@@ -7,6 +7,7 @@ class BotDetector:
         'googlebot.com',
         'search.msn.com',
         'yandex.com',
+        'yasni.de',
     ]
     
 
